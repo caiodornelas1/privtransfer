@@ -1,6 +1,4 @@
-// TODO: substituir pelo número comercial definitivo assim que o cliente repassar
-// (ver ESTADO-DO-PROJETO.md secao 9 / pendencia em 4a-prompt-site.md).
-const WHATSAPP_NUMBER = "SEUNUMEROAQUI";
+const WHATSAPP_NUMBER = "33634097484";
 const WHATSAPP_MESSAGE = "Vim do site — quero saber mais sobre o transfer";
 
 document.querySelectorAll(".whatsapp-link").forEach((link) => {
