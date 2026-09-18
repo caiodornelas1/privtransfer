@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PRIV Transfer — Motorista particular em Paris</title>
+<meta name="description" content="Motorista particular e frota própria em Paris. Transfers, agenda à disposição, eventos e passeios privativos. VTC regulamentado.">
+<link rel="icon" type="image/png" href="assets/simbolo-navy.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- NAV -->
+<header class="nav" id="topo">
+  <div class="nav__inner">
+    <a href="#topo" class="nav__brand">
+      <span class="wordmark">PRIV</span>
+    </a>
+    <button class="nav__toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav__links" id="navLinks">
+      <a href="#servicos">Serviços</a>
+      <a href="#seguranca">Segurança</a>
+      <a href="#idiomas">Idiomas</a>
+      <a href="#como-funciona">Como funciona</a>
+      <a href="#quem-somos">Quem somos</a>
+      <a href="#faq">FAQ</a>
+      <a href="#instagram">Instagram</a>
+      <a href="#contato" class="nav__cta">Falar no WhatsApp</a>
+    </nav>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero__bg" style="background-image:url('assets/hero-van-hotel.png')"></div>
+  <div class="hero__overlay"></div>
+  <div class="hero__content">
+    <h1 class="hero__headline hero__headline--slogan">
+      <span class="word">Privacidade</span>
+      <span class="word">• Segurança</span>
+      <span class="word">• Mobilidade</span>
+    </h1>
+    <p class="hero__subheadline hero__subheadline--caps">Transfer particular e frota própria, agenda à disposição, eventos e passeios privativos. VTC regulamentado, no conforto de falar a sua língua.</p>
+    <a href="#contato" class="btn btn--primary whatsapp-link">Fazer minha reserva</a>
+  </div>
+</section>
+
+<!-- SERVIÇOS -->
+<section class="section section--dark" id="servicos">
+  <div class="section__head reveal">
+    <p class="eyebrow">NOSSOS SERVIÇOS</p>
+    <p class="section__lead">Muito além do trajeto convencional até o aeroporto.</p>
+  </div>
+
+  <div class="services">
+    <article class="service-card reveal">
+      <div class="service-card__media"><div class="service-card__photo" style="background-image:url('assets/servico-aeroporto.jpg')"></div></div>
+      <div class="service-card__body">
+        <span class="icon-ring">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M2.5 19.5l19-7.5-19-7.5 1 6 12 1.5-12 1.5-1 6z"/></svg>
+        </span>
+        <h3>Transfer Aeroporto ↔ Hotel</h3>
+        <p>Chegada e partida com conforto e tranquilidade.</p>
+      </div>
+    </article>
+
+    <article class="service-card reveal">
+      <div class="service-card__media"><div class="service-card__photo" style="background-image:url('assets/servico-citytour.png')"></div></div>
+      <div class="service-card__body">
+        <span class="icon-ring">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="12" cy="9" r="2.5"/><path d="M12 21s7-6.5 7-11.5A7 7 0 0 0 5 9.5C5 14.5 12 21 12 21z"/></svg>
+        </span>
+        <h3>City Tour</h3>
+        <p>Conheça Paris com transporte particular e um toque personalizado para a sua viagem.</p>
+      </div>
+    </article>
+
+    <article class="service-card reveal">
+      <div class="service-card__media"><div class="service-card__photo" style="background-image:url('assets/servico-personalizado.jpg')"></div></div>
+      <div class="service-card__body">
+        <span class="icon-ring">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M4 12h16M14 6l6 6-6 6"/></svg>
+        </span>
+        <h3>Trajetos Personalizados</h3>
+        <p>Você escolhe o destino. Nós cuidamos do trajeto.</p>
+      </div>
+    </article>
+
+    <article class="service-card reveal">
+      <div class="service-card__media"><div class="service-card__photo" style="background-image:url('assets/servico-alemdeparis.png')"></div></div>
+      <div class="service-card__body">
+        <span class="icon-ring">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.5 3.8 5.7 3.8 9s-1.3 6.5-3.8 9c-2.5-2.5-3.8-5.7-3.8-9S9.5 5.5 12 3z"/></svg>
+        </span>
+        <h3>Além de Paris</h3>
+        <p>Viagens para pontos turísticos fora da Île-de-France e destinos em toda a Europa.</p>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- SEGURANÇA -->
+<section class="section" id="seguranca">
+  <div class="split reveal">
+    <div class="split__photos">
+      <div class="split__photo" style="background-image:url('assets/seguranca-vtc.png')"></div>
+      <div class="split__photo" style="background-image:url('assets/seguranca-banco.png')"></div>
+    </div>
+    <div class="split__text">
+      <p class="eyebrow">SUA SEGURANÇA IMPORTA</p>
+      <p class="section__lead">Profissionais regulamentados. Trajetos com tranquilidade.</p>
+
+      <div class="feature">
+        <span class="icon-ring">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M12 2l2.6 1.6L18 3l.6 3.4L21 9l-1.6 2.6L21 15l-2.4 2.6L18 21l-3.4-.6L12 22l-2.6-1.6L6 21l-.6-3.4L3 15l1.6-2.6L3 9l2.4-2.6L6 3l3.4.6L12 2z"/><circle cx="12" cy="11" r="3"/></svg>
+        </span>
+        <p>Na França, o transporte profissional de passageiros segue requisitos específicos. Nossos motoristas são <strong>VTC regulamentados</strong> e habilitados para exercer a atividade.</p>
+      </div>
+
+      <div class="feature">
+        <span class="icon-ring">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M5 17h14M5 17a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm14 0a2 2 0 1 0 4 0 2 2 0 0 0-4 0zM5 17V9l2-4h10l2 4v8"/></svg>
+        </span>
+        <p>Os veículos possuem a <strong>identificação exigida</strong> para o transporte VTC, garantindo um serviço profissional e dentro das normas.</p>
+      </div>
+    </div>
+  </div>
+  <div class="banner reveal">
+    <p class="eyebrow">SEGURANÇA DO INÍCIO AO FIM</p>
+    <p>Regulamentação, profissionalismo e cuidado em cada trajeto.</p>
+  </div>
+</section>
+
+<!-- IDIOMAS -->
+<section class="section section--dark" id="idiomas">
+  <div class="split split--reverse reveal">
+    <div class="split__text">
+      <p class="eyebrow">ATENDEMOS VOCÊ NO SEU IDIOMA</p>
+      <p class="section__lead">Do primeiro contato ao destino, nossa equipe está preparada para atender você em diferentes idiomas.</p>
+      <ul class="language-list">
+        <li><span class="flag">BR</span> Português</li>
+        <li><span class="flag">FR</span> Français</li>
+        <li><span class="flag">EN</span> English</li>
+        <li><span class="flag">ES</span> Español</li>
+      </ul>
+      <p class="closing-note">Atendimento pensado para clientes de diferentes partes do mundo.</p>
+    </div>
+    <div class="split__photo split__photo--tall" style="background-image:url('assets/idiomas-strip.jpg');background-position:top center;"></div>
+  </div>
+</section>
+
+<!-- COMO FUNCIONA -->
+<section class="section" id="como-funciona">
+  <div class="section__head reveal">
+    <p class="eyebrow">COMO FUNCIONA</p>
+    <p class="section__lead">Do primeiro contato ao embarque de volta.</p>
+  </div>
+
+  <ol class="steps">
+    <li class="step reveal">
+      <span class="step__num">1</span>
+      <h3>Reserva</h3>
+      <p>Manda sua data, voo e destino pro WhatsApp.</p>
+    </li>
+    <li class="step reveal">
+      <span class="step__num">2</span>
+      <h3>Confirmação</h3>
+      <p>A gente confirma o veículo e o motorista, com antecedência.</p>
+    </li>
+    <li class="step reveal">
+      <span class="step__num">3</span>
+      <h3>Voo monitorado</h3>
+      <p>Acompanhamos seu voo em tempo real — a gente já sabe antes de você.</p>
+    </li>
+    <li class="step reveal">
+      <span class="step__num">4</span>
+      <h3>Chegada</h3>
+      <p>Mesma equipe a viagem inteira, veículo discreto — privacidade em cada detalhe.</p>
+    </li>
+    <li class="step reveal">
+      <span class="step__num">5</span>
+      <h3>Embarque</h3>
+      <p>Trajeto tranquilo até o destino. Na volta, o mesmo processo — sem repetir tudo de novo.</p>
+    </li>
+  </ol>
+
+  <div class="detail-photo reveal" style="background-image:url('assets/comofunciona-broche.jpg')"></div>
+</section>
+
+<!-- QUEM SOMOS -->
+<section class="section section--dark" id="quem-somos">
+  <div class="split reveal">
+    <div class="split__photo split__photo--wide" style="background-image:url('assets/quemsomos-trio.jpg')"></div>
+    <div class="split__text">
+      <p class="eyebrow">QUEM SOMOS</p>
+      <p>A PRIV nasceu do encontro de profissionais com anos de experiência como motoristas no território francês.</p>
+      <p>Depois de anos atuando na profissão, decidimos unir nossa experiência e transformar essa trajetória em um novo projeto.</p>
+      <p>Assim nasceu a PRIV Transfer, com um propósito em comum: oferecer um serviço de transfer com alto padrão, conforto e atenção em cada trajeto.</p>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="section" id="faq">
+  <div class="section__head reveal">
+    <p class="eyebrow">PERGUNTAS FREQUENTES</p>
+  </div>
+
+  <div class="accordion reveal">
+    <div class="accordion__item">
+      <button class="accordion__trigger">
+        <span>Como funciona o pagamento?</span>
+        <span class="accordion__icon">+</span>
+      </button>
+      <div class="accordion__panel">
+        <p>Em real, sem se preocupar com câmbio. PIX, cartão nacional ou internacional, fatura PJ (Brasil ou França). Câmbio travado na confirmação.</p>
+      </div>
+    </div>
+    <div class="accordion__item">
+      <button class="accordion__trigger">
+        <span>Vocês emitem nota fiscal?</span>
+        <span class="accordion__icon">+</span>
+      </button>
+      <div class="accordion__panel">
+        <p>Sim, pra reembolso corporativo ou faturamento de produção — faz parte do serviço.</p>
+      </div>
+    </div>
+    <div class="accordion__item">
+      <button class="accordion__trigger">
+        <span>Tem cadeirinha infantil?</span>
+        <span class="accordion__icon">+</span>
+      </button>
+      <div class="accordion__panel">
+        <p>Sim, sem custo extra — é só avisar antes da viagem.</p>
+      </div>
+    </div>
+    <div class="accordion__item">
+      <button class="accordion__trigger">
+        <span>Tem limite de bagagem?</span>
+        <span class="accordion__icon">+</span>
+      </button>
+      <div class="accordion__panel">
+        <p>A frota tem espaço de sobra pra mala de mão e despachada. Volume fora do padrão, é só avisar com antecedência.</p>
+      </div>
+    </div>
+    <div class="accordion__item">
+      <button class="accordion__trigger">
+        <span>E se o voo atrasar ou tiver greve?</span>
+        <span class="accordion__icon">+</span>
+      </button>
+      <div class="accordion__panel">
+        <p>A gente acompanha o voo em tempo real. Plano B já pronto antes de você precisar dele.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- INSTAGRAM -->
+<section class="section section--dark" id="instagram">
+  <div class="section__head reveal">
+    <p class="eyebrow">INSTAGRAM</p>
+    <p class="section__lead">@priv.transfer</p>
+  </div>
+  <div class="ig-grid reveal">
+    <div class="ig-tile"><img src="assets/simbolo-navy.png" alt=""><span>Em breve</span></div>
+    <div class="ig-tile"><img src="assets/simbolo-navy.png" alt=""><span>Em breve</span></div>
+    <div class="ig-tile"><img src="assets/simbolo-navy.png" alt=""><span>Em breve</span></div>
+    <div class="ig-tile"><img src="assets/simbolo-navy.png" alt=""><span>Em breve</span></div>
+    <div class="ig-tile"><img src="assets/simbolo-navy.png" alt=""><span>Em breve</span></div>
+    <div class="ig-tile"><img src="assets/simbolo-navy.png" alt=""><span>Em breve</span></div>
+  </div>
+  <a href="https://instagram.com/priv.transfer" target="_blank" rel="noopener" class="btn btn--outline">Seguir no Instagram</a>
+</section>
+
+<!-- CTA FINAL -->
+<section class="cta-final" id="contato">
+  <div class="cta-final__bg" style="background-image:url('assets/hero-van-eiffel.jpg')"></div>
+  <div class="cta-final__overlay"></div>
+  <div class="cta-final__content reveal">
+    <h2>Particular em todos os sentidos.</h2>
+    <p class="slogan">Privacidade • Segurança • Mobilidade</p>
+    <a href="#" class="btn btn--primary whatsapp-link">Falar no WhatsApp</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <img src="assets/simbolo-branco.png" alt="" class="footer__symbol">
+  <p class="wordmark">PRIV TRANSFER</p>
+  <p class="slogan">Privacidade • Segurança • Mobilidade</p>
+  <div class="footer__links">
+    <a href="https://instagram.com/priv.transfer" target="_blank" rel="noopener">Instagram</a>
+    <a href="#" class="whatsapp-link">WhatsApp</a>
+  </div>
+  <p class="footer__copy">© PRIV Transfer</p>
+</footer>
+
+<!-- WHATSAPP FLUTUANTE -->
+<a href="#" class="whatsapp-float whatsapp-link" aria-label="Falar no WhatsApp">
+  <svg viewBox="0 0 32 32" fill="currentColor"><path d="M16.01 3C9.38 3 4 8.38 4 15.01c0 2.38.7 4.6 1.9 6.47L4 29l7.72-1.86a11.9 11.9 0 0 0 4.29.8h.01c6.63 0 12.01-5.38 12.01-12.01C28.03 8.38 22.65 3 16.01 3zm0 21.7h-.01a9.9 9.9 0 0 1-5.05-1.38l-.36-.21-4.58 1.1 1.13-4.47-.24-.37a9.86 9.86 0 0 1-1.51-5.26c0-5.46 4.45-9.9 9.93-9.9 2.65 0 5.14 1.03 7.02 2.9a9.86 9.86 0 0 1 2.9 7.01c0 5.46-4.45 9.58-9.23 9.58zm5.44-7.4c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.24-.46-2.37-1.47-.87-.78-1.46-1.74-1.63-2.04-.17-.3-.02-.46.13-.6.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.06 2.87 1.21 3.07.15.2 2.09 3.19 5.06 4.47.71.31 1.26.49 1.69.63.71.23 1.35.19 1.86.12.57-.09 1.76-.72 2-1.41.25-.7.25-1.29.17-1.41-.07-.12-.27-.2-.57-.35z"/></svg>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>
